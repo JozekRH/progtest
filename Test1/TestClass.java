@@ -26,7 +26,7 @@ public class TestClass {
 		Test();
 	}
 	public static String test() {
-		if (Test()) return "";
-		else return "Some error!";
+		if (Test()) return "{\"pass\":true,\"grade\":50,\"comment\":\"\"}";
+		else return "{\"pass\":false,\"grade\":-1,\"comment\":\"Тест Fibonacci не прошел\"}";
 	}
 }
