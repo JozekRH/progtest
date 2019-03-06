@@ -2,7 +2,6 @@ package Test1;
 
 import java.math.BigInteger;
 
-import junit.framework.TestListener;
 import junit.framework.TestResult;
 
 import org.junit.*;
@@ -38,15 +37,13 @@ public class TestClass {
 	
 	
 	@Test
-	public TestResult getTestResult()
+	public static String getTestResult()
 	{
-		TestResult tr = new TestResult();
-		tr.addListener((TestListener)this);
 		Fibonacci f = new Fibonacci();
 		Assert.assertEquals(f.dynamic(12001).toString(), testRightResult);
 		Assert.assertEquals(f.matrix(12001).toString(), testRightResult);
 		
-		return tr;
+		return "";
 	}
 }
 
