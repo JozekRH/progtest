@@ -5,6 +5,8 @@ import java.math.BigInteger;
 import junit.framework.TestResult;
 
 import org.junit.*;
+import org.junit.runner.JUnitCore;
+import org.junit.runner.Result;
 
 public class TestClass extends TestResult{
 
@@ -37,6 +39,12 @@ public class TestClass extends TestResult{
 	}
 	
 	
+	public static String testString() {
+		Result result = JUnitCore.runClasses(TestClass.class);
+		
+		return result.toString();
+	}
+
 	@Test
 	public static void getTestResult()
 	{
