@@ -1,7 +1,7 @@
 package Test1;
 
-import org.junit.Assert;
-import org.junit.Test;
+import org.junit.*;
+//import org.junit.Test;
 import org.junit.runner.Result;
 
 import ru.progwards.lms.main.TestResult;
