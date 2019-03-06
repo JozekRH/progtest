@@ -38,7 +38,7 @@ public class TestClass {
 	
 	
 	@Test
-	public TestResult runTest()
+	public TestResult getTestResult()
 	{
 		TestResult tr = new TestResult();
 		tr.addListener((TestListener)this);
