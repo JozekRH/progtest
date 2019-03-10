@@ -23,5 +23,10 @@ public class TestClass1{
 		return null;
 		//return new TestResult(true, 50, "Ляляля");
 	}
+
+	public static String getTitle()
+	{
+		return "Числа Фибоначчи";
+	}
 }
 
