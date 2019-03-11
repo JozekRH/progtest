@@ -20,8 +20,8 @@ public class TestClass1{
 	
 	public static TestResult processResult(Result jUnitResult)
 	{
-		//return null;
-		return new TestResult(true, 30, "Ляляля");
+		return null;
+		//return new TestResult(true, 30, "Ляляля");
 	}
 
 	public static String getTitle()
