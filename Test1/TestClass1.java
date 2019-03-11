@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.Result;
 
-import ru.progwards.lms.main.TestResult;
+//import ru.progwards.lms.main.TestResult;
 
 public class TestClass1{
 	
@@ -23,10 +23,10 @@ public class TestClass1{
 		return null;
 		//return new TestResult(true, 30, "Ляляля");
 	}
-
+*/
 	public static String getTitle()
 	{
 		return "Числа Фибоначчи";
 	}
-*/}
+}
 
