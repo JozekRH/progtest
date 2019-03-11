@@ -18,7 +18,7 @@ public class TestClass1{
 		Assert.assertTrue("Тест matrix не прошел", f.matrix(12001).toString().equals(testRightResult));
 	}
 	
-	public static TestResult processResult(Result jUnitResult)
+/*	public static TestResult processResult(Result jUnitResult)
 	{
 		return null;
 		//return new TestResult(true, 30, "Ляляля");
@@ -28,5 +28,5 @@ public class TestClass1{
 	{
 		return "Числа Фибоначчи";
 	}
-}
+*/}
 
