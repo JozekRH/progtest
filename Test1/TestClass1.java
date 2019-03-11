@@ -4,7 +4,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.Result;
 
-//import ru.progwards.lms.main.TestResult;
+import ru.progwards.lms.main.TestResult;
 
 public class TestClass1{
 	
@@ -18,12 +18,12 @@ public class TestClass1{
 		Assert.assertTrue("Тест matrix не прошел", f.matrix(12001).toString().equals(testRightResult));
 	}
 	
-/*	public static TestResult processResult(Result jUnitResult)
+	public static TestResult processResult(Result jUnitResult)
 	{
 		return null;
 		//return new TestResult(true, 30, "Ляляля");
 	}
-*/
+
 	public static String getTitle()
 	{
 		return "Числа Фибоначчи";
