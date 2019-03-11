@@ -14,14 +14,15 @@ public class TestClass1{
 	public void runTest()
 	{
 		Fibonacci f = new Fibonacci();
-		Assert.assertTrue("Тест dynamic не прошел", f.dynamic(12001).toString().equals(""));
+		Assert.assertTrue("Тест dynamic не прошел", f.dynamic(12001).toString().equals(testRightResult));
 		Assert.assertTrue("Тест matrix не прошел", f.matrix(12001).toString().equals(testRightResult));
 	}
 	
 	public static TestResult processResult(Result jUnitResult)
 	{
+		if (jUnitResult != null && jUnitResult.getFailureCount() == 0) return new TestResult(true, 30, "Выполнено без замечаний.");
+		
 		return null;
-		//return new TestResult(true, 30, "Ляляля");
 	}
 
 	public static String getTitle()
