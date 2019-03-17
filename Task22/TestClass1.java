@@ -11,7 +11,7 @@ public class TestClass1{
 	@Test
 	public void runTest()
 	{
-		TestTask22 tt = new TestTask21();
+		TestTask21 tt = new TestTask21();
 		Assert.assertTrue("Тест t1 не прошел", tt.t1().equals("111"));
 		Assert.assertTrue("Тест t2 не прошел", tt.t2() == 222);
 	}
