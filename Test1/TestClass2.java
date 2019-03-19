@@ -1,4 +1,4 @@
-//ДЗ урока 2, задача 1
+//ДЗ урока 2, задача 2
 package Test1;
 
 import org.junit.After;
