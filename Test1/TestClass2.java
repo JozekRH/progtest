@@ -6,7 +6,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class TestClass1{
+public class TestClass2{
 	
 	// массив с данными для процессинга результата теста
 	// 0: идентификатор теста, - имя функции @Test
@@ -32,21 +32,12 @@ public class TestClass1{
 	
 	
 	@Test
-	public void test3()
+	public void test1()
 	{
-		TestTask22 tt = new TestTask22();
+		TestTask21 tt = new TestTask21();
 		Assert.assertTrue(tt.t1().equals("111"));
-		Assert.assertTrue(tt.t.equals("111"));
 	}
-
-	@Test
-	public void test2()
-	{
-		TestTask22 tt = new TestTask22();
-		Assert.assertTrue("проверка a", tt.t2() == 222);
-		Assert.assertTrue("проверка b", tt.t2() == 111);
-		Assert.assertTrue("проверка c", tt.t2() == 333);
-	}
+	
 
 	public static String[][] getData()
 	{
