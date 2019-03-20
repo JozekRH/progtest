@@ -52,7 +52,7 @@ public class TestClass1{
 	@Test
 	public void test2()
 	{
-		TestTask21 tt = new TestTask21();
+		TestTask22 tt = new TestTask22();
 		Assert.assertTrue("проверка a", tt.t2() == 222);
 		Assert.assertTrue("проверка b", tt.t2() == 111);
 		Assert.assertTrue("проверка c", tt.t2() == 333);
