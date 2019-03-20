@@ -42,6 +42,14 @@ public class TestClass1{
 	}
 	
 	@Test
+	public void test3()
+	{
+		TestTask22 tt = new TestTask22();
+		Assert.assertTrue(tt.t1().equals("111"));
+		Assert.assertTrue(tt.t.equals("111"));
+	}
+
+	@Test
 	public void test2()
 	{
 		TestTask21 tt = new TestTask21();
