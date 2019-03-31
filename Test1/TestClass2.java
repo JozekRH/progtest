@@ -34,7 +34,7 @@ public class TestClass2{
 	@Test
 	public void test1()
 	{
-		TestTask21 tt = new TestTask21();
+		TestTask22 tt = new TestTask22();
 		Assert.assertTrue(tt.t1().equals("111"));
 	}
 	
